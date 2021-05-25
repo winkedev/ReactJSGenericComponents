@@ -1,4 +1,9 @@
-#Exemplo BaseSidebar
+# Exemplo BaseSidebar
+
+```
+import React from 'react';
+import BaseSidebar from '../../components/BaseSidebar';
+import { ReactComponent as ListSVG } from '../../assets/list.svg';
 
 <BaseSidebar
             logoImage={<img src={JostLogo} />}
